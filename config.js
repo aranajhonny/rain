@@ -3,6 +3,8 @@ const { schema, imports, dependencies, environment, expressions, endpoints } = p
 environment
   .add('COUNTRY', 'The country code Ejm. us')
   .add('ZIP', 'The ZIP code. Ejm. 94040')
+  .add('FROM', 'From Phone Number')
+  .add('TO', 'To Phone Number')
 
 imports
   .add('driver')
