@@ -1,0 +1,47 @@
+{
+ "imports": [
+  {
+   "program": "driver"
+  },
+  {
+   "program": "twilio"
+  }
+ ],
+ "dependencies": [
+  {
+   "name": "messages",
+   "description": "",
+   "type": "twilio:MessageCollection"
+  },
+  {
+   "name": "locations",
+   "description": "",
+   "type": "driver:LocationCollection"
+  }
+ ],
+ "environment": [
+  {
+   "name": "COUNTRY",
+   "description": "The country code Ejm. us"
+  },
+  {
+   "name": "ZIP",
+   "description": "The ZIP code. Ejm. 94040"
+  }
+ ],
+ "endpoints": [],
+ "schema": {
+  "types": [
+   {
+    "name": "Root",
+    "fields": [],
+    "computedFields": [],
+    "actions": [],
+    "events": []
+   }
+  ]
+ },
+ "expressions": [],
+ "database": [],
+ "isDriver": false
+}
