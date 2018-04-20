@@ -4,8 +4,8 @@ export async function init() {
 	return program.setTimer('check', 0, 10);
 }
 export async function timer({ key }) {
-	const condition = await condition.get();
-  console.log(condition)
+	const forecast = await condition.get();
+  console.log(forecast)
 	//if (condition === 'Rain') {
 		// await messages.sendSms({
 		// 	from: FROM,
