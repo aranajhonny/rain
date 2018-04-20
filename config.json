@@ -16,7 +16,7 @@
   {
    "name": "condition",
    "description": "",
-   "type": "driver:Location"
+   "type": "String"
   }
  ],
  "environment": [
@@ -27,10 +27,6 @@
   {
    "name": "TO",
    "description": "To Phone Number"
-  },
-  {
-   "name": "HOURS",
-   "description": "Forecasts Hours"
   }
  ],
  "endpoints": [],

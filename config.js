@@ -3,7 +3,6 @@ const { schema, imports, dependencies, environment, expressions, endpoints } = p
 environment
   .add('FROM', 'From Phone Number')
   .add('TO', 'To Phone Number')
-  .add('HOURS', 'Forecasts Hours')
 
 imports
   .add('driver')
@@ -11,6 +10,6 @@ imports
 
 dependencies
   .add('messages', 'twilio:MessageCollection')
-  .add('locations', 'driver:Location')
+  .add('condition', 'String')
 
 schema.type('Root')
