@@ -14,9 +14,9 @@
    "type": "twilio:MessageCollection"
   },
   {
-   "name": "locations",
+   "name": "condition",
    "description": "",
-   "type": "driver:LocationCollection"
+   "type": "driver:Location"
   }
  ],
  "environment": [
