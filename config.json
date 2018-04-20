@@ -21,12 +21,16 @@
  ],
  "environment": [
   {
-   "name": "COUNTRY",
-   "description": "The country code Ejm. us"
+   "name": "FROM",
+   "description": "From Phone Number"
   },
   {
-   "name": "ZIP",
-   "description": "The ZIP code. Ejm. 94040"
+   "name": "TO",
+   "description": "To Phone Number"
+  },
+  {
+   "name": "HOURS",
+   "description": "Forecasts Hours"
   }
  ],
  "endpoints": [],
