@@ -5,12 +5,10 @@ export async function init() {
 }
 export async function timer({ key }) {
   if ((await condition.get()) === 'Rain') {
-    if (condition === 'Rain') {
-      await messages.sendSms({
-        from: FROM,
-        to: TO,
-        body: `The forecast is ${condition}`,
-      });
-    }
+    await messages.sendSms({
+      from: FROM,
+      to: TO,
+      body: `Rain is coming`,
+    });
   }
 }
