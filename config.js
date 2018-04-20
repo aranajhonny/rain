@@ -11,6 +11,6 @@ imports
 
 dependencies
   .add('messages', 'twilio:MessageCollection')
-  .add('condition', 'driver:Location')
+  .add('locations', 'driver:Location')
 
 schema.type('Root')
